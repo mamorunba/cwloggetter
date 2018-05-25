@@ -1,0 +1,11 @@
+logging:
+  level:
+    root: INFO
+    org:
+      springframework.web: DEBUG
+      hibernate: ERROR
+  file: cwloggetter.log
+
+aws-property: 
+  cloudWatchLogsEndPoint: "https://logs.ap-northeast-1.amazonaws.com"
+  
